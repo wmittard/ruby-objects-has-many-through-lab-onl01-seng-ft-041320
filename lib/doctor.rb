@@ -13,7 +13,7 @@ class Doctor
    end
 
     def patients
-     appointments.map {|appointment| appointment.patient}
+     Appointment.all.map {|appointment| appointment.patient}
      end 
    #Looking for -- has many patients through appointments 
    
