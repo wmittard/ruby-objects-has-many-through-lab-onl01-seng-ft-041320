@@ -24,9 +24,7 @@
      Appointment.all.map {|appointment| appointment.doctor}
      end 
     
-
- 
- end
+end
 
 
    
